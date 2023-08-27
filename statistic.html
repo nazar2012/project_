@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Статистика</title>
     <style>
         header,footer{
             display: flex;
@@ -21,6 +21,13 @@
         ul{
             list-style: none;
         }
+        body{
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
         a{
             text-decoration: none;
             font-size: 25px;
@@ -30,24 +37,24 @@
         a:hover{
             color: black;
         }
-        h1,p,h2,img,.skills{
-            margin-left: 600px;
+        .list{
+            display: flex;
+            justify-content: space-around;
         }
-        body{
-            margin: 0;
+        img:hover{
+            transform: scale(1.2);
+            cursor: pointer;
         }
         img{
             width: 400px;
             transition: 2s;
         }
-        img:hover{
-            transform: scale(1.1);
-            cursor: pointer;
+        footer{
+            margin-top: 100px;
         }
     </style>
 </head>
 <body>
-
     <header>
 
         <nav>
@@ -66,15 +73,20 @@
         </ul>
     </header>
 
-    <h1>Hello My name is Nazar</h1>
-    <p>I am Front-end Developer</p>
-    <img src="4hdx.jpeg" alt="">
-    <h2>My Skills</h2>
-    <ul class="skills">
-        <li>Java Script</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Canva</li>
+    <h1>Статистика</h1>
+
+    <ul class="list">
+        <li>
+            <img
+            src="https://st.adda247.com/https://adda247jobs-wp-assets-adda247.s3.ap-south-1.amazonaws.com/jobs/wp-content/uploads/sites/2/2022/09/08221320/Introduction-To-Statistics.png"
+             alt="">
+            <h2>Радісних клієнтів: 6,143 {За останій місяць}</h2>
+        </li>
+        <li>
+            <img
+            src="https://www.statology.org/wp-content/uploads/2021/10/combo6.png" alt="">
+            <h2>Замовленнь: 6,988 {За останій місяць}</h2>
+        </li>
     </ul>
 
     <Footer>
